@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Front</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Importa o arquivo de estilos CSS -->
+</head>
+<body>
+    <!-- Cabeçalho com logo e menu -->
+    <header>
+        <div class="logo">
+            <img src="" alt=""> <!-- Logo da página, o src está vazio e deve ser preenchido com o caminho da imagem -->
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li> <!-- Link para a seção Home -->
+                <li><a href="#about">About</a></li> <!-- Link para a seção About -->
+                <li><a href="#port">Portfólio</a></li> <!-- Link para a seção Portfólio -->
+            </ul>
+        </div>
+        <div class="menu-mobile">
+            <ul>
+                <li><a href="#home">Home</a></li> <!-- Link para a seção Home -->
+                <li><a href="#about">About</a></li> <!-- Link para a seção About -->
+                <li><a href="#port">Portfólio</a></li> <!-- Link para a seção Portfólio -->
+            </ul>
+        </div>
+        <div class="btn-mobile">
+            <ion-icon name="grid-outline"></ion-icon> <!-- Ícone para o menu móvel -->
+        </div>
+    </header>
+
+    <!-- Seção principal com informações sobre o desenvolvedor -->
+    <main id="home">
+        <div class="container">
+            <div class="icons">
+                <a href="https://www.instagram.com/kaue_ocalixto"><ion-icon name="logo-instagram"></ion-icon></a> <!-- Link para Instagram -->
+                <a href="https://github.com/kauecalixto"><ion-icon name="logo-github"></ion-icon></a> <!-- Link para GitHub -->
+                <a href="https://www.linkedin.com/in/kauescalixto/"><ion-icon name="logo-linkedin"></ion-icon></a> <!-- Link para LinkedIn -->
+            </div>
+            <div class="title">
+                <h1>I'm Kauê Calixto</h1> <!-- Nome do desenvolvedor -->
+                <h2>developer</h2> <!-- Título de desenvolvedor -->
+                <h3>front end developer</h3> <!-- Especialização em front end -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Seção sobre o desenvolvedor -->
+    <section id="about">
+        <div class="container">
+            <div class="title">
+                <h1>I am a front end developer</h1> <!-- Título da seção sobre o desenvolvedor -->
+                <p>It suggests that one cannot achieve significant gains or improvements without experiencing some level of discomfort, pain, or effort.</p> <!-- Descrição sobre o desenvolvedor -->
+                <div class="box-title">
+                    <p>90%</p> <!-- Progresso em HTML -->
+                    <div class="b1"><div class="b2"></div></div> <!-- Barra de progresso em HTML -->
+                    <span>HTML</span> <!-- Nome da habilidade -->
+
+                    <p>70%</p> <!-- Progresso em CSS -->
+                    <div class="b1"><div class="b3"></div></div> <!-- Barra de progresso em CSS -->
+                    <span>CSS</span> <!-- Nome da habilidade -->
+
+                    <p>87%</p> <!-- Progresso em Python -->
+                    <div class="b1"><div class="b4"></div></div> <!-- Barra de progresso em Python -->
+                    <span>PYTHON</span> <!-- Nome da habilidade -->
+
+                    <p>15%</p> <!-- Progresso em Java -->
+                    <div class="b1"><div class="b5"></div></div> <!-- Barra de progresso em Java -->
+                    <span>JAVA</span> <!-- Nome da habilidade -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de portfólio -->
+    <section id="port">
+        <div class="container">
+            <!-- Inputs para controle do slider -->
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+            <div class="cards">
+                <!-- Primeiro item do slider -->
+                <label class="card" for="item-1" id="song-1">
+                    <img src="image/01.png" alt=""> <!-- Imagem do projeto -->
+                    <h1>SOBRE MIM</h1> <!-- Título do projeto -->
+                    <p>Estou na missão de virar um desenvolvedor back-end na tal da Anhanguera. Curto Python demais, fiz uns cursos aí só pelo amor à causa. Também já fiz um curso de inglês, mas só o o fino quando pego para conversa . Já trabalhei como suporte técnico, mas se eu for continuar contando, dá pra escrever um livro, então vou parar por aqui.Esqueci de me apresentar! Viu como é ter TDAH? 😅 Bom, me chamo Kauê, tenho 20 anos e sou apaixonado por tecnologia. Aprendo um pouco de tudo e estou me virando nos trinta com tecnologia desde os 16 anos. Sempre com uma nova aventura pela frente</p> <!-- Descrição do projeto -->
+                </label>
+
+                <!-- Segundo item do slider -->
+                <label class="card" for="item-2" id="song-2">
+                    <img src="image/02.png" alt=""> <!-- Imagem do projeto -->
+                    <h1>PROJETOS ALEATÓRIOS</h1> <!-- Título do projeto -->
+                    <p>
+                        <strong>Trabalhando com Planilha Excel:</strong><br>
+                        <a href="https://github.com/kauecalixto/TrabalhandocomPlanilhaExcel">Repositório no GitHub</a><br> <!-- Link para o repositório do projeto -->
+                        Descrição: Projeto focado em manipulação e automação de planilhas no Excel.<br><br>
+
+                        <strong>Projeto:</strong><br>
+                        <a href="https://github.com/kauecalixto/Projeto">Repositório no GitHub</a><br> <!-- Link para o repositório do projeto -->
+                        Descrição: VAI VER NÉ.<br><br>
+
+                        <strong>Image Processing:</strong><br>
+                        <a href="https://github.com/kauecalixto/image_processing">Repositório no GitHub</a><br> <!-- Link para o repositório do projeto -->
+                        Descrição: Processamento de imagens usando técnicas avançadas.<br><br>
+
+                        <strong>Projetos e Desafios:</strong><br>
+                        <a href="https://github.com/kauecalixto/Projetos-Desafios">Repositório no GitHub</a><br> <!-- Link para o repositório do projeto -->
+                        Descrição: Desafios de programação e projetos desenvolvidos como prática.
+                    </p>
+                </label>
+
+                <!-- Terceiro item do slider -->
+                <label class="card" for="item-3" id="song-3">
+                    <img src="image/03.png" alt=""> <!-- Imagem do projeto -->
+                    <h1>COISAS ALEATORIA</h1> <!-- Título do projeto -->
+                    <p>Tenho um hobby de criar galinhas ornamentais.</p> <!-- Descrição do projeto -->
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé da página -->
+    <footer>
+    </footer>
+
+    <!-- Scripts para ícones e jQuery -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> <!-- Importa ícones Ionicons para módulos ES -->
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> <!-- Importa ícones Ionicons para navegadores sem suporte a módulos ES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- Importa a biblioteca jQuery -->
+</body>
+</html>
