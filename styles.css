@@ -334,7 +334,9 @@ header .btn-mobile {
     height: 100vh;
     background: url(image/Começo.jpg);
     background-size: cover;
-    transition: background 0.4s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #contact .container .content-contact{
